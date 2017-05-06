@@ -1,0 +1,98 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body>.container {
+    padding: 15px 0;
+}
+
+.jumbotron p {
+    font-size: 16px;
+}
+
+.btn-lg {
+    margin: 10px auto;
+}
+
+.btn-md {
+    margin: 20px auto;
+    max-width: 90%;
+    height: 60px;
+}
+
+#heading {
+    font-family: 'Concert One', cursive;
+    color: red;
+}
+
+.row {
+    padding-top: 30px;
+}
+
+body {
+    font-family: "helvetica neue", helvetica;
+    opacity: .9;
+    font-weight: 400;
+    color: #aa3e03;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    background-color: black;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+}
+
+#myCarousel {
+    background: black;
+    width: 100%;
+}
+
+.main-nav li{
+    font: 700 18px/21px "Open Sans Condensed", "Arial", "Helvetica", sans-serif;
+    font-variant: small-caps;
+    padding: 30px;
+    margin: 0 3px 0 0;
+    display: inline-block;
+}
+
+ul, menu, dir {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+
+.item, p {
+    font-size: 50px;
+    vertical-align: middle;
+    font-family: "Open Sans Condensed", "Arial", "Helvetica", sans-serif;
+}
+
+.container>header {
+    padding: 30px 30px 10px 20px;
+    margin: 0px 20px 10px 20px;
+    position: relative;
+    display: block;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+    text-align: left;
+}
+
+.container>header h1 {
+    font-family: "helvetica neue", helvetica;
+    line-height: 35px;
+    position: relative;
+    font-weight: 400;
+    color: #fff;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+    padding: 0px 0px 5px 0px;
+}
+
+.header {
+    background: black;
+}
